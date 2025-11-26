@@ -1,7 +1,7 @@
 name: "Block List Override"
 description: Remove unnecessary blocks from the block list for better system performance.
 type: module
-core_version_requirement: ^9.1 || ^10
+core_version_requirement: ^9.1 || ^10 || ^11
 dependencies:
   - drupal:block
 configure: block_list_override.settings
